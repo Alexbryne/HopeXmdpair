@@ -157,7 +157,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    HOPE_XmD_PAIR_CODE();
+                    MALVIN_XD_PAIR_CODE();
                 }
             });
         } catch (err) {
